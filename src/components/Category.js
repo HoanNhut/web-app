@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import childrenBook from "../img/children-books.jpg";
 import literatureBook from "../img/literature-books.jpg";
 import languageBook from "../img/language-books.jpg";
@@ -12,7 +11,6 @@ const categories = [
   { name: "Sách ngoại ngữ", image: languageBook },
   { name: "Sách kinh doanh", image: businessBook }
 ];
-
 
 const Category = () => {
   return (
